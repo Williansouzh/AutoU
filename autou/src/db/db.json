@@ -1,0 +1,96 @@
+{
+  "colaboradores": [
+    {
+      "id": 1,
+      "matricula": "2049",
+      "email": "anna.alves@cliente.com",
+      "nome": "Anna",
+      "sobrenome": "Alves",
+      "departamento": "financeito",
+      "cargo": "Analista",
+      "senha": "12345678"
+    },
+    {
+      "id": 2,
+      "matricula": "4515",
+      "email": "anna.alves@cliente.com",
+      "nome": "miguel",
+      "sobrenome": "Alves",
+      "departamento": "dev",
+      "cargo": "Analista",
+      "senha": "12345678"
+    },
+    {
+      "id": 1,
+      "matricula": "2049",
+      "email": "anna.alves@cliente.com",
+      "nome": "Bob",
+      "sobrenome": "Alves",
+      "departamento": "financeito",
+      "cargo": "Analista",
+      "senha": "12345678"
+    },
+    {
+      "id": 2,
+      "matricula": "4515",
+      "email": "anna.alves@cliente.com",
+      "nome": "miguel",
+      "sobrenome": "Alves",
+      "departamento": "dev",
+      "cargo": "Analista"
+    }
+  ],
+  "elogios": [
+    {
+      "id": 1,
+      "from": "Anna",
+      "for": "Anna",
+      "elogio": "",
+      "like": 11,
+      "orgulho": 0,
+      "excellent": 0,
+      "colaboracao": 0
+    },
+    {
+      "id": 2,
+      "from": "Anna",
+      "for": "Anna",
+      "elogio": "rtgew",
+      "like": 5,
+      "orgulho": 0,
+      "excellent": 0,
+      "colaboracao": 0
+    },
+    {
+      "id": 3,
+      "from": "Anna",
+      "for": "Anna",
+      "elogio": "fsdfsa",
+      "like": 0,
+      "orgulho": 0,
+      "excellent": 0,
+      "colaboracao": 0
+    },
+    {
+      "id": 4,
+      "from": "Anna",
+      "for": "Anna",
+      "elogio": "fsdfsaasfasffdafd",
+      "like": 0,
+      "orgulho": 0,
+      "excellent": 0,
+      "colaboracao": 0
+    }
+  ],
+  "currentUser": {
+    "id_User": 1,
+    "id": 1,
+    "matricula": "2049",
+    "email": "anna.alves@cliente.com",
+    "nome": "Anna",
+    "sobrenome": "Alves",
+    "departamento": "financeito",
+    "cargo": "Analista",
+    "senha": "12345678"
+  }
+}
