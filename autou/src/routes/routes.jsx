@@ -6,7 +6,8 @@ export const MainRoutes = ()=>{
     return(
         useRoutes([
             {path: '/', element: <LogingPage/>},
-            {path: '/elogios', element: <ElogiosPage/>}
+            {path: '/elogios', element: <ElogiosPage/>},
+            {path: '/elogios/seusElogios', element: <ElogiosPage/>}
         ])
     )
 }

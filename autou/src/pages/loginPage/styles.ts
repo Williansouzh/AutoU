@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 80vw;
-    background-color: whitesmoke;
+    background-color: #DEEFE7;
     margin: 20vh auto;
+    color: #002333;
     hr{
         width: 90%;
     }
@@ -12,21 +13,23 @@ export const Container = styled.div`
         text-align: left;
     }
     .loginButton{
+        transition-duration: .5s;
+        color: white;
         cursor: pointer;
         border: none;
         padding: 1em 4em;
         border-radius :.2em;
         margin: 0 auto;
         max-width: 50%;
-        background-color: green;
+        background-color: #002333;
         border: 1px solid whitesmoke;
     }
     .loginButton:hover{
-        background-color: whitesmoke;
-        border: 1px solid green;
+        background-color: #159A9C;
+        border: 1px solid #002333;
     }
     .createAccount a{
-        color: green;
+        color: #002333;
     }
 `;
 export const Form = styled.form`

@@ -4,18 +4,19 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 40px;
-    background-color: whitesmoke;
+    padding: .5em 1em;
+    margin-bottom: 1em;
     .elogioHeader{
         padding: .5em 1em;
-        background-color: gray;
+        background-color: #002333;
         display: flex;
         flex-direction: row;
+        color: white;
     }
 `;
 
 export const Reactions = styled.div`
-    background-color: greenyellow;
+    background-color: #159A9C;
     font-size: 1.5em;
     ul{
         padding: 0;
@@ -30,9 +31,14 @@ export const Reactions = styled.div`
         transition-duration: 1s;
     };
     .reactionsButtons li:hover{
-        color: blue;
+        color: #002333;
         transform: scale(2);
     };
-    .comment p{
+    .elogio p{
+        color: #002333;
+    }
+    .comment input{
+        color: #002333;
+        outline: none;
     }
 `;

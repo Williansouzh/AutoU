@@ -30,6 +30,8 @@ export const LogingPage = ()=>{
                 "senha": userToCheck[0].senha,
             })
             navigate("/elogios")
+        }else{
+            alert("Usuário não encontrado")
         }
         console.log(userToCheck.length)
     }
@@ -47,8 +49,6 @@ export const LogingPage = ()=>{
             <C.Form onSubmit={submitHandle}> 
                 <h1>Login</h1>
                 <hr />
-                <h4>{name}</h4>
-                <h4>{senha}</h4>
                 <Input 
                     name="Nome" 
                     placeholder="Digite o seu nome" 

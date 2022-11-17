@@ -7,12 +7,14 @@ export const Elogio = ({from, to, text,reagir,  like, orgulho, ecellent, colabor
             <div className='elogioHeader'>
                 <p>De <strong>{from}</strong> para: <strong>{to}</strong>:</p>
             </div>
-            <p>{text}</p>
+            <div className='elogio'>
+                <p>{text}</p>
+            </div>
             <C.Reactions>
                 <div className='comment'>
                     <Input
-                        text="Elogio"
-                        placeholder="elogio"
+                        text="Comentar "
+                        placeholder="Comentar"
                     />
                 </div>
                 <ul className='reactionsButtons'>
